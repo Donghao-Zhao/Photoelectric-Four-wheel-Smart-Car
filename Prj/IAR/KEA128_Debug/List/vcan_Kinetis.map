@@ -1,0 +1,648 @@
+###############################################################################
+#
+# IAR ELF Linker V8.11.1.13263/W32 for ARM                22/Jun/2018  17:36:36
+# Copyright 2007-2017 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\ZDH\Desktop\2018.6.20.21.23\2018.6.20.21.23\Prj\IAR\KEA128_Debug\Exe\vcan_Kinetis.out
+#    Map file     =  
+#        C:\Users\ZDH\Desktop\2018.6.20.21.23\2018.6.20.21.23\Prj\IAR\KEA128_Debug\List\vcan_Kinetis.map
+#    Command line =  
+#        -f C:\Users\ZDH\AppData\Local\Temp\EWDD7D.tmp
+#        (C:\Users\ZDH\Desktop\2018.6.20.21.23\2018.6.20.21.23\Prj\IAR\KEA128_Debug\Obj\8700_2100.o
+#        C:\Users\ZDH\Desktop\2018.6.20.21.23\2018.6.20.21.23\Prj\IAR\KEA128_Debug\Obj\Calculate.o
+#        C:\Users\ZDH\Desktop\2018.6.20.21.23\2018.6.20.21.23\Prj\IAR\KEA128_Debug\Obj\direction.o
+#        C:\Users\ZDH\Desktop\2018.6.20.21.23\2018.6.20.21.23\Prj\IAR\KEA128_Debug\Obj\guiyihua.o
+#        C:\Users\ZDH\Desktop\2018.6.20.21.23\2018.6.20.21.23\Prj\IAR\KEA128_Debug\Obj\Karman.o
+#        C:\Users\ZDH\Desktop\2018.6.20.21.23\2018.6.20.21.23\Prj\IAR\KEA128_Debug\Obj\KEA_adc.o
+#        C:\Users\ZDH\Desktop\2018.6.20.21.23\2018.6.20.21.23\Prj\IAR\KEA128_Debug\Obj\KEA_ftm.o
+#        C:\Users\ZDH\Desktop\2018.6.20.21.23\2018.6.20.21.23\Prj\IAR\KEA128_Debug\Obj\KEA_gpio.o
+#        C:\Users\ZDH\Desktop\2018.6.20.21.23\2018.6.20.21.23\Prj\IAR\KEA128_Debug\Obj\KEA_PIT.o
+#        C:\Users\ZDH\Desktop\2018.6.20.21.23\2018.6.20.21.23\Prj\IAR\KEA128_Debug\Obj\KEA_port.o
+#        C:\Users\ZDH\Desktop\2018.6.20.21.23\2018.6.20.21.23\Prj\IAR\KEA128_Debug\Obj\KEA_SysTick.o
+#        C:\Users\ZDH\Desktop\2018.6.20.21.23\2018.6.20.21.23\Prj\IAR\KEA128_Debug\Obj\KEA_uart.o
+#        C:\Users\ZDH\Desktop\2018.6.20.21.23\2018.6.20.21.23\Prj\IAR\KEA128_Debug\Obj\KEA_wdog.o
+#        C:\Users\ZDH\Desktop\2018.6.20.21.23\2018.6.20.21.23\Prj\IAR\KEA128_Debug\Obj\main.o
+#        C:\Users\ZDH\Desktop\2018.6.20.21.23\2018.6.20.21.23\Prj\IAR\KEA128_Debug\Obj\misc.o
+#        C:\Users\ZDH\Desktop\2018.6.20.21.23\2018.6.20.21.23\Prj\IAR\KEA128_Debug\Obj\MKEA128_conf.o
+#        C:\Users\ZDH\Desktop\2018.6.20.21.23\2018.6.20.21.23\Prj\IAR\KEA128_Debug\Obj\MKEA128_it.o
+#        C:\Users\ZDH\Desktop\2018.6.20.21.23\2018.6.20.21.23\Prj\IAR\KEA128_Debug\Obj\MPUIIC.o
+#        C:\Users\ZDH\Desktop\2018.6.20.21.23\2018.6.20.21.23\Prj\IAR\KEA128_Debug\Obj\oled.o
+#        C:\Users\ZDH\Desktop\2018.6.20.21.23\2018.6.20.21.23\Prj\IAR\KEA128_Debug\Obj\Serial_oscilloscope.o
+#        C:\Users\ZDH\Desktop\2018.6.20.21.23\2018.6.20.21.23\Prj\IAR\KEA128_Debug\Obj\startup_SKEAZ1284.o
+#        C:\Users\ZDH\Desktop\2018.6.20.21.23\2018.6.20.21.23\Prj\IAR\KEA128_Debug\Obj\system_SKEAZ1284.o
+#        C:\Users\ZDH\Desktop\2018.6.20.21.23\2018.6.20.21.23\Prj\IAR\KEA128_Debug\Obj\VCAN_ASCII.o
+#        C:\Users\ZDH\Desktop\2018.6.20.21.23\2018.6.20.21.23\Prj\IAR\KEA128_Debug\Obj\VCAN_computer.o
+#        C:\Users\ZDH\Desktop\2018.6.20.21.23\2018.6.20.21.23\Prj\IAR\KEA128_Debug\Obj\VCAN_key.o
+#        C:\Users\ZDH\Desktop\2018.6.20.21.23\2018.6.20.21.23\Prj\IAR\KEA128_Debug\Obj\VCAN_key_event.o
+#        C:\Users\ZDH\Desktop\2018.6.20.21.23\2018.6.20.21.23\Prj\IAR\KEA128_Debug\Obj\VCAN_LCD.o
+#        C:\Users\ZDH\Desktop\2018.6.20.21.23\2018.6.20.21.23\Prj\IAR\KEA128_Debug\Obj\VCAN_LCD_CH.o
+#        C:\Users\ZDH\Desktop\2018.6.20.21.23\2018.6.20.21.23\Prj\IAR\KEA128_Debug\Obj\VCAN_LCD_ST7735R.o
+#        C:\Users\ZDH\Desktop\2018.6.20.21.23\2018.6.20.21.23\Prj\IAR\KEA128_Debug\Obj\VCAN_LCD_ST7735S.o
+#        C:\Users\ZDH\Desktop\2018.6.20.21.23\2018.6.20.21.23\Prj\IAR\KEA128_Debug\Obj\VCAN_LED.o
+#        C:\Users\ZDH\Desktop\2018.6.20.21.23\2018.6.20.21.23\Prj\IAR\KEA128_Debug\Obj\VCAN_NRF24L0.o
+#        C:\Users\ZDH\Desktop\2018.6.20.21.23\2018.6.20.21.23\Prj\IAR\KEA128_Debug\Obj\VCAN_NRF24L0_MSG.o
+#        C:\Users\ZDH\Desktop\2018.6.20.21.23\2018.6.20.21.23\Prj\IAR\KEA128_Debug\Obj\VCAN_TSL1401.o
+#        C:\Users\ZDH\Desktop\2018.6.20.21.23\2018.6.20.21.23\Prj\IAR\KEA128_Debug\Obj\VCAN_UI_VAR.o
+#        C:\Users\ZDH\Desktop\2018.6.20.21.23\2018.6.20.21.23\Prj\IAR\KEA128_Debug\Obj\vectors.o
+#        --redirect _Printf=_PrintfLargeNoMb --redirect _Scanf=_ScanfLargeNoMb
+#        -o
+#        C:\Users\ZDH\Desktop\2018.6.20.21.23\2018.6.20.21.23\Prj\IAR\KEA128_Debug\Exe\vcan_Kinetis.out
+#        --map
+#        C:\Users\ZDH\Desktop\2018.6.20.21.23\2018.6.20.21.23\Prj\IAR\KEA128_Debug\List\vcan_Kinetis.map
+#        --config
+#        "C:\Users\ZDH\Desktop\2018.6.20.21.23\2018.6.20.21.23\Prj\IAR\config
+#        files\vcan_ROM_KEA128.icf" --entry __iar_program_start --redirect
+#        __write=__write_buffered --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** MESSAGES
+***
+
+Warning[Lt009]: Inconsistent wchar_t size
+            VCAN_ASCII.o has wchar_t size 16 bits
+            8700_2100.o and 45 other objects have wchar_t size 32 bits
+
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x00004000 { ro section .intvec };
+"A1":  place at 0x000040c0 { ro section .noinit };
+"P1":  place in [from 0x00004000 to 0x00020000] { ro, block CodeRelocate };
+"P2":  place in [from 0x1ffff000 to 0x20003000] {
+          rw, block CodeRelocateRam, block CSTACK, block HEAP };
+initialize manually with packing = copy, complex ranges { section .data };
+
+  Section              Kind        Address    Size  Object
+  -------              ----        -------    ----  ------
+"A0":                                         0xc0
+  .intvec              const    0x00004000    0xc0  vectors.o [1]
+                              - 0x000040c0    0xc0
+
+"A1":                                          0x8
+  .noinit              ro code  0x000040c0     0x8  startup_SKEAZ1284.o [1]
+                              - 0x000040c8     0x8
+
+"P1", part 1 of 2:                          0x3638
+  .text                ro code  0x000040c8   0x518  oled.o [1]
+  .text                ro code  0x000045e0   0x1b0  KEA_gpio.o [1]
+  .text                ro code  0x00004790    0x6c  misc.o [1]
+  .text                ro code  0x000047fc    0xe0  I32DivModFast.o [5]
+  .text                ro code  0x000048dc    0x1c  MKEA128_conf.o [1]
+  .text                ro code  0x000048f8     0x2  IntDivZer.o [5]
+  .text                ro code  0x000048fc    0xac  VCAN_LED.o [1]
+  .text                ro code  0x000049a8   0x438  Calculate.o [1]
+  .text                ro code  0x00004de0    0x34  IxxToDbl.o [4]
+  .text                ro code  0x00004e14   0x184  DblMul.o [4]
+  .text                ro code  0x00004f98   0x1b4  DblAddSub.o [4]
+  .text                ro code  0x0000514c    0xc2  DblDiv.o [4]
+  .text                ro code  0x00005210    0x32  FltToDbl.o [4]
+  .text                ro code  0x00005242    0x32  DblCmpGe.o [4]
+  .text                ro code  0x00005274    0x32  DblCmpLe.o [4]
+  .text                ro code  0x000052a6    0x62  DblToFlt.o [4]
+  .text                ro code  0x00005308    0x36  IxxToFlt.o [4]
+  .text                ro code  0x0000533e    0xb0  FltMul.o [4]
+  .text                ro code  0x000053ee   0x120  FltAddSub.o [4]
+  .text                ro code  0x00005510    0x28  FltCmpGe.o [4]
+  .text                ro code  0x00005538    0x26  FltCmpLe.o [4]
+  .text                ro code  0x00005560    0x3a  FltToS32.o [4]
+  .text                ro code  0x0000559c   0x42c  KEA_ftm.o [1]
+  .text                ro code  0x000059c8   0x3a0  KEA_PIT.o [1]
+  .text                ro code  0x00005d68   0x162  KEA_adc.o [1]
+  .text                ro code  0x00005ecc   0x384  guiyihua.o [1]
+  .text                ro code  0x00006250   0x168  direction.o [1]
+  .text                ro code  0x000063b8   0x150  Serial_oscilloscope.o [1]
+  .text                ro code  0x00006508   0x174  8700_2100.o [1]
+  .text                ro code  0x0000667c   0x258  Karman.o [1]
+  .text                ro code  0x000068d4    0xaa  FltDiv.o [4]
+  .text                ro code  0x00006980   0x114  KEA_uart.o [1]
+  .text                ro code  0x00006a94   0x2e8  MPUIIC.o [1]
+  .text                ro code  0x00006d7c    0x70  KEA_port.o [1]
+  .rodata              const    0x00006dec   0x228  oled.o [1]
+  .text                ro code  0x00007014   0x168  main.o [1]
+  .text                ro code  0x0000717c   0x160  vectors.o [1]
+  .text                ro code  0x000072dc   0x13c  system_SKEAZ1284.o [1]
+  .text                ro code  0x00007418    0x54  KEA_wdog.o [1]
+  .rodata              const    0x0000746c    0x4c  KEA_gpio.o [1]
+  .rodata              const    0x000074b8    0x48  KEA_adc.o [1]
+  .rodata              const    0x00007500    0x48  KEA_ftm.o [1]
+  .rodata              const    0x00007548    0x48  KEA_PIT.o [1]
+  .rodata              const    0x00007590    0x48  misc.o [1]
+  .text                ro code  0x000075d8    0x40  zero_init3.o [5]
+  .data_init                    0x00007618    0x34  <Block>
+    Initializer bytes  const    0x00007618    0x34  <for .data-1>
+  .text                ro code  0x0000764c    0x28  data_init.o [5]
+  .iar.init_table      const    0x00007674    0x10  - Linker created -
+  .text                ro code  0x00007684    0x1a  cmain.o [5]
+  .text                ro code  0x0000769e     0x4  low_level_init.o [3]
+  .text                ro code  0x000076a2     0x8  exit.o [3]
+  .text                ro code  0x000076ac     0xa  cexit.o [5]
+  .text                ro code  0x000076b8     0xc  XXexit.o [5]
+  .rodata              const    0x000076c4    0x10  oled.o [1]
+  .rodata              const    0x000076d4     0xc  KEA_port.o [1]
+  .text                ro code  0x000076e0     0xc  cstartup_M.o [5]
+  .rodata              const    0x000076ec     0x4  main.o [1]
+  .rodata              const    0x000076f0     0x4  main.o [1]
+  .rodata              const    0x000076f4     0x4  main.o [1]
+  .rodata              const    0x000076f8     0x4  main.o [1]
+  .rodata              const    0x000076fc     0x4  main.o [1]
+  .rodata              const    0x00007700     0x0  zero_init3.o [5]
+                              - 0x00007700  0x3638
+
+"P1", part 2 of 2:                             0x0
+  CodeRelocate                  0x00007700     0x0  <Block>
+
+"P2", part 1 of 3:                            0x34
+  .data                         0x1ffff000    0x34  <Block>
+    .data-1                     0x1ffff000    0x34  <Init block>
+      .data            inited   0x1ffff000     0x4  Karman.o [1]
+      .data            inited   0x1ffff004     0x4  Karman.o [1]
+      .data            inited   0x1ffff008     0x4  Karman.o [1]
+      .data            inited   0x1ffff00c     0x4  Karman.o [1]
+      .data            inited   0x1ffff010     0x4  Karman.o [1]
+      .data            inited   0x1ffff014    0x10  Karman.o [1]
+      .data            inited   0x1ffff024     0xc  KEA_gpio.o [1]
+      .data            inited   0x1ffff030     0x4  VCAN_LED.o [1]
+                              - 0x1ffff034    0x34
+
+"P2", part 2 of 3:                           0x150
+  .bss                          0x1ffff038   0x150  <Block>
+    .bss               zero     0x1ffff038     0x8  Calculate.o [1]
+    .bss               zero     0x1ffff040     0x8  Calculate.o [1]
+    .bss               zero     0x1ffff048     0x8  Calculate.o [1]
+    .bss               zero     0x1ffff050     0x8  Calculate.o [1]
+    .bss               zero     0x1ffff058     0x4  Calculate.o [1]
+    .bss               zero     0x1ffff05c     0x4  Calculate.o [1]
+    .bss               zero     0x1ffff060     0x4  Calculate.o [1]
+    .bss               zero     0x1ffff064     0x4  Calculate.o [1]
+    .bss               zero     0x1ffff068     0x4  Calculate.o [1]
+    .bss               zero     0x1ffff06c     0x4  Calculate.o [1]
+    .bss               zero     0x1ffff070     0x4  Calculate.o [1]
+    .bss               zero     0x1ffff074     0x4  Calculate.o [1]
+    .bss               zero     0x1ffff078     0x4  Calculate.o [1]
+    .bss               zero     0x1ffff07c     0x4  Calculate.o [1]
+    .bss               zero     0x1ffff080     0x4  Calculate.o [1]
+    .bss               zero     0x1ffff084     0x4  Calculate.o [1]
+    .bss               zero     0x1ffff088     0x4  Calculate.o [1]
+    .bss               zero     0x1ffff08c     0x4  Calculate.o [1]
+    .bss               zero     0x1ffff090     0x4  Calculate.o [1]
+    .bss               zero     0x1ffff094    0x14  guiyihua.o [1]
+    .bss               zero     0x1ffff0a8     0xc  guiyihua.o [1]
+    .bss               zero     0x1ffff0b4    0x14  guiyihua.o [1]
+    .bss               zero     0x1ffff0c8     0x4  Karman.o [1]
+    .bss               zero     0x1ffff0cc     0x4  Karman.o [1]
+    .bss               zero     0x1ffff0d0     0x4  Karman.o [1]
+    .bss               zero     0x1ffff0d4     0x4  Karman.o [1]
+    .bss               zero     0x1ffff0d8     0x4  Karman.o [1]
+    .bss               zero     0x1ffff0dc     0x4  Karman.o [1]
+    .bss               zero     0x1ffff0e0     0x4  Karman.o [1]
+    .bss               zero     0x1ffff0e4     0x4  Karman.o [1]
+    .bss               zero     0x1ffff0e8     0x4  Karman.o [1]
+    .bss               zero     0x1ffff0ec     0x4  Karman.o [1]
+    .bss               zero     0x1ffff0f0    0x10  Karman.o [1]
+    .bss               zero     0x1ffff100     0xc  KEA_ftm.o [1]
+    .bss               zero     0x1ffff10c     0xc  KEA_PIT.o [1]
+    .bss               zero     0x1ffff118     0x8  KEA_PIT.o [1]
+    .bss               zero     0x1ffff120     0x8  KEA_PIT.o [1]
+    .bss               zero     0x1ffff128     0xc  KEA_PIT.o [1]
+    .bss               zero     0x1ffff134     0x4  KEA_PIT.o [1]
+    .bss               zero     0x1ffff138     0x8  KEA_PIT.o [1]
+    .bss               zero     0x1ffff140     0x4  KEA_PIT.o [1]
+    .bss               zero     0x1ffff144     0x4  KEA_PIT.o [1]
+    .bss               zero     0x1ffff148    0x18  Serial_oscilloscope.o [1]
+    .bss               zero     0x1ffff160     0x4  system_SKEAZ1284.o [1]
+    .bss               zero     0x1ffff164     0x4  system_SKEAZ1284.o [1]
+    .bss               zero     0x1ffff168     0x4  system_SKEAZ1284.o [1]
+    .bss               zero     0x1ffff16c     0x4  system_SKEAZ1284.o [1]
+    .bss               zero     0x1ffff170     0x2  Karman.o [1]
+    .bss               zero     0x1ffff172     0x2  KEA_PIT.o [1]
+    .bss               zero     0x1ffff174     0x2  KEA_PIT.o [1]
+    .bss               zero     0x1ffff176     0x2  KEA_PIT.o [1]
+    .bss               zero     0x1ffff178     0x2  KEA_PIT.o [1]
+    .bss               zero     0x1ffff17a     0x2  KEA_PIT.o [1]
+    .bss               zero     0x1ffff17c     0x1  KEA_PIT.o [1]
+    .bss               zero     0x1ffff17d     0x1  KEA_PIT.o [1]
+    .bss               zero     0x1ffff17e     0x1  KEA_PIT.o [1]
+    .bss               zero     0x1ffff17f     0x1  KEA_PIT.o [1]
+    .bss               zero     0x1ffff180     0x1  KEA_PIT.o [1]
+                              - 0x1ffff184   0x150
+
+"P2", part 3 of 3:                             0x0
+  CodeRelocateRam               0x1ffff184     0x0  <Block>
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x149:
+          0x1ffff038  0x149
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                 ro code  ro data  rw data
+    ------                 -------  -------  -------
+C:\Users\ZDH\Desktop\2018.6.20.21.23\2018.6.20.21.23\Prj\IAR\KEA128_Debug\Obj: [1]
+    8700_2100.o                372
+    Calculate.o              1 080                92
+    KEA_PIT.o                  928       72       75
+    KEA_adc.o                  354       72
+    KEA_ftm.o                1 068       72       12
+    KEA_gpio.o                 432       88       12
+    KEA_port.o                 112       12
+    KEA_uart.o                 276
+    KEA_wdog.o                  84
+    Karman.o                   600       36       94
+    MKEA128_conf.o              28
+    MPUIIC.o                   744
+    Serial_oscilloscope.o      336                24
+    VCAN_LED.o                 172        4        4
+    direction.o                360
+    guiyihua.o                 900                52
+    main.o                     360       20
+    misc.o                     108       72
+    oled.o                   1 304      568
+    startup_SKEAZ1284.o          8
+    system_SKEAZ1284.o         316                16
+    vectors.o                  352      192
+    ------------------------------------------------
+    Total:                  10 294    1 208      381
+
+command line: [2]
+    ------------------------------------------------
+    Total:
+
+dl6M_tlf.a: [3]
+    exit.o                       8
+    low_level_init.o             4
+    ------------------------------------------------
+    Total:                      12
+
+m6M_tl.a: [4]
+    DblAddSub.o                436
+    DblCmpGe.o                  50
+    DblCmpLe.o                  50
+    DblDiv.o                   194
+    DblMul.o                   388
+    DblToFlt.o                  98
+    FltAddSub.o                288
+    FltCmpGe.o                  40
+    FltCmpLe.o                  38
+    FltDiv.o                   170
+    FltMul.o                   176
+    FltToDbl.o                  50
+    FltToS32.o                  58
+    IxxToDbl.o                  52
+    IxxToFlt.o                  54
+    ------------------------------------------------
+    Total:                   2 142
+
+rt6M_tl.a: [5]
+    I32DivModFast.o            224
+    IntDivZer.o                  2
+    XXexit.o                    12
+    cexit.o                     10
+    cmain.o                     26
+    cstartup_M.o                12
+    data_init.o                 40
+    zero_init3.o                64
+    ------------------------------------------------
+    Total:                     390
+
+    Gaps                        18
+    Linker created                       16
+----------------------------------------------------
+    Grand Total:            12 856    1 224      381
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.bss$$Base              0x1ffff038          --   Gb  - Linker created -
+.bss$$Limit             0x1ffff184          --   Gb  - Linker created -
+.data$$Base             0x1ffff000          --   Gb  - Linker created -
+.data$$Limit            0x1ffff034          --   Gb  - Linker created -
+.data_init$$Base        0x00007618          --   Gb  - Linker created -
+.data_init$$Limit       0x0000764c          --   Gb  - Linker created -
+.iar.init_table$$Base   0x00007674          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x00007684          --   Gb  - Linker created -
+?main                   0x00007685         Code  Gb  cmain.o [5]
+ADC_Ave                 0x00005e89   0x42  Code  Gb  KEA_adc.o [1]
+ADC_Mid                 0x00005e0d   0x7c  Code  Gb  KEA_adc.o [1]
+ADC_va                  0x1ffff0a8    0xc  Data  Gb  guiyihua.o [1]
+ADC_value               0x1ffff10c    0xc  Data  Gb  KEA_PIT.o [1]
+Angle                   0x1ffff170    0x2  Data  Gb  Karman.o [1]
+AngleCalculate          0x000049a9   0x7a  Code  Gb  Calculate.o [1]
+AngleControl            0x00004a23   0x8e  Code  Gb  Calculate.o [1]
+Angle_PWM               0x1ffff172    0x2  Data  Gb  KEA_PIT.o [1]
+Angle_err               0x1ffff0d0    0x4  Data  Gb  Karman.o [1]
+C_0                     0x1ffff010    0x4  Data  Gb  Karman.o [1]
+CodeRelocate$$Base      0x00007700          --   Gb  - Linker created -
+CodeRelocate$$Limit     0x00007700          --   Gb  - Linker created -
+CodeRelocateRam$$Base   0x1ffff184          --   Gb  - Linker created -
+CodeRelocateRam$$Limit  0x1ffff184          --   Gb  - Linker created -
+Data_Send               0x000063b9  0x150  Code  Gb  Serial_oscilloscope.o [1]
+E                       0x1ffff0dc    0x4  Data  Gb  Karman.o [1]
+F6x8                    0x00006dec  0x228  Data  Gb  oled.o [1]
+GPIOX                   0x1ffff024    0xc  Data  Gb  KEA_gpio.o [1]
+Gyro_x                  0x1ffff0c8    0x4  Data  Gb  Karman.o [1]
+Init_8700_2100          0x000065a1   0x5e  Code  Gb  8700_2100.o [1]
+K_0                     0x1ffff0e0    0x4  Data  Gb  Karman.o [1]
+K_1                     0x1ffff0e4    0x4  Data  Gb  Karman.o [1]
+Kalman_Filter           0x0000667d  0x258  Code  Gb  Karman.o [1]
+LEDPIN_Init             0x000040c9   0x2c  Code  Gb  oled.o [1]
+LED_CLS                 0x000041ff   0x3c  Code  Gb  oled.o [1]
+LED_DLY_ms              0x0000423b   0x1a  Code  Gb  oled.o [1]
+LED_Fill                0x000041bf   0x40  Code  Gb  oled.o [1]
+LED_P6x8Char            0x00004413   0x54  Code  Gb  oled.o [1]
+LED_P6x8Str             0x00004467   0x6e  Code  Gb  oled.o [1]
+LED_PTxn                0x1ffff030    0x4  Data  Gb  VCAN_LED.o [1]
+LED_PrintValueI         0x000044e1   0xf8  Code  Gb  oled.o [1]
+LED_Set_Pos             0x00004193   0x2c  Code  Gb  oled.o [1]
+LED_WrCmd               0x00004145   0x4e  Code  Gb  oled.o [1]
+LED_WrDat               0x000040f5   0x4e  Code  Gb  oled.o [1]
+MPU_IIC_Ack             0x00006bd3   0x58  Code  Gb  MPUIIC.o [1]
+MPU_IIC_Delay           0x00006a95    0xa  Code  Gb  MPUIIC.o [1]
+MPU_IIC_Init            0x00006a9f   0x24  Code  Gb  MPUIIC.o [1]
+MPU_IIC_NAck            0x00006c2b   0x5a  Code  Gb  MPUIIC.o [1]
+MPU_IIC_Read_Byte       0x00006cfb   0x72  Code  Gb  MPUIIC.o [1]
+MPU_IIC_Send_Byte       0x00006c85   0x76  Code  Gb  MPUIIC.o [1]
+MPU_IIC_Start           0x00006ac3   0x5a  Code  Gb  MPUIIC.o [1]
+MPU_IIC_Stop            0x00006b1d   0x5a  Code  Gb  MPUIIC.o [1]
+MPU_IIC_Wait_Ack        0x00006b77   0x5c  Code  Gb  MPUIIC.o [1]
+MotorSpeedOut           0x00004c65  0x122  Code  Gb  Calculate.o [1]
+NVIC_EnableIRQ          0x00007015    0xe  Code  Lc  main.o [1]
+OLED_Init               0x0000436d   0xa6  Code  Gb  oled.o [1]
+PCt_0                   0x1ffff0d4    0x4  Data  Gb  Karman.o [1]
+PCt_1                   0x1ffff0d8    0x4  Data  Gb  Karman.o [1]
+PP                      0x1ffff014   0x10  Data  Gb  Karman.o [1]
+Pdot                    0x1ffff0f0   0x10  Data  Gb  Karman.o [1]
+Q_angle                 0x1ffff000    0x4  Data  Gb  Karman.o [1]
+Q_bias                  0x1ffff0cc    0x4  Data  Gb  Karman.o [1]
+Q_gyro                  0x1ffff004    0x4  Data  Gb  Karman.o [1]
+R_angle                 0x1ffff008    0x4  Data  Gb  Karman.o [1]
+Read_2100_8700          0x000065ff   0x7e  Code  Gb  8700_2100.o [1]
+Read_Byte_2100_8700     0x00006559   0x48  Code  Gb  8700_2100.o [1]
+Region$$Table$$Base     0x00007674          --   Gb  - Linker created -
+Region$$Table$$Limit    0x00007684          --   Gb  - Linker created -
+Reset_Handler           0x000040c1         Code  Gb  startup_SKEAZ1284.o [1]
+SetAddressingMode       0x00004255   0x14  Code  Gb  oled.o [1]
+SetContrastControl      0x00004279   0x14  Code  Gb  oled.o [1]
+SetStartLine            0x00004269   0x10  Code  Gb  oled.o [1]
+Set_Charge_Pump         0x0000428d   0x16  Code  Gb  oled.o [1]
+Set_Common_Config       0x00004343   0x16  Code  Gb  oled.o [1]
+Set_Common_Remap        0x000042f7   0x10  Code  Gb  oled.o [1]
+Set_Display_Clock       0x0000431b   0x14  Code  Gb  oled.o [1]
+Set_Display_Offset      0x00004307   0x14  Code  Gb  oled.o [1]
+Set_Display_On_Off      0x000042e7   0x10  Code  Gb  oled.o [1]
+Set_Entire_Display      0x000042b3   0x10  Code  Gb  oled.o [1]
+Set_Inverse_Display     0x000042c3   0x10  Code  Gb  oled.o [1]
+Set_Multiplex_Ratio     0x000042d3   0x14  Code  Gb  oled.o [1]
+Set_Precharge_Period    0x0000432f   0x14  Code  Gb  oled.o [1]
+Set_Segment_Remap       0x000042a3   0x10  Code  Gb  oled.o [1]
+Set_VCOMH               0x00004359   0x14  Code  Gb  oled.o [1]
+SpeedDifferenceL        0x1ffff074    0x4  Data  Gb  Calculate.o [1]
+SpeedDifferenceR        0x1ffff078    0x4  Data  Gb  Calculate.o [1]
+SpeedPIDL               0x00004ab1   0xbc  Code  Gb  Calculate.o [1]
+SpeedPIDR               0x00004b8d   0xac  Code  Gb  Calculate.o [1]
+SpeedPIDR::lastspeeddifferenceR
+                        0x1ffff088    0x4  Data  Lc  Calculate.o [1]
+SpeedPWMKIL             0x1ffff070    0x4  Data  Gb  Calculate.o [1]
+SpeedPWMKIR             0x1ffff068    0x4  Data  Gb  Calculate.o [1]
+SpeedPWMKL              0x1ffff05c    0x4  Data  Gb  Calculate.o [1]
+SpeedPWMKPL             0x1ffff064    0x4  Data  Gb  Calculate.o [1]
+SpeedPWMKPR             0x1ffff06c    0x4  Data  Gb  Calculate.o [1]
+SpeedPWMKR              0x1ffff060    0x4  Data  Gb  Calculate.o [1]
+Speed_L                 0x1ffff08c    0x4  Data  Gb  Calculate.o [1]
+Speed_PWML              0x1ffff174    0x2  Data  Gb  KEA_PIT.o [1]
+Speed_PWMR              0x1ffff176    0x2  Data  Gb  KEA_PIT.o [1]
+Speed_R                 0x1ffff090    0x4  Data  Gb  Calculate.o [1]
+Write_Byte_2100_8700    0x00006509   0x50  Code  Gb  8700_2100.o [1]
+__BOOT_STACK_ADDRESS {Abs}
+                        0x20002ff8         Data  Gb  command line/config [2]
+__VECTOR_TABLE {Abs}    0x00004000         Data  Gb  command line/config [2]
+__aeabi_cdcmple         0x00005275         Code  Gb  DblCmpLe.o [4]
+__aeabi_cdrcmple        0x00005243         Code  Gb  DblCmpGe.o [4]
+__aeabi_cfcmple         0x00005539         Code  Gb  FltCmpLe.o [4]
+__aeabi_cfrcmple        0x00005511         Code  Gb  FltCmpGe.o [4]
+__aeabi_d2f             0x000052a7         Code  Gb  DblToFlt.o [4]
+__aeabi_dadd            0x00004f99         Code  Gb  DblAddSub.o [4]
+__aeabi_ddiv            0x0000514d         Code  Gb  DblDiv.o [4]
+__aeabi_dmul            0x00004e15         Code  Gb  DblMul.o [4]
+__aeabi_dsub            0x0000505f         Code  Gb  DblAddSub.o [4]
+__aeabi_f2d             0x00005211         Code  Gb  FltToDbl.o [4]
+__aeabi_f2iz            0x00005561         Code  Gb  FltToS32.o [4]
+__aeabi_fadd            0x000053ef         Code  Gb  FltAddSub.o [4]
+__aeabi_fdiv            0x000068d5         Code  Gb  FltDiv.o [4]
+__aeabi_fmul            0x0000533f         Code  Gb  FltMul.o [4]
+__aeabi_fsub            0x0000545f         Code  Gb  FltAddSub.o [4]
+__aeabi_i2d             0x00004e01         Code  Gb  IxxToDbl.o [4]
+__aeabi_i2f             0x00005329         Code  Gb  IxxToFlt.o [4]
+__aeabi_idiv            0x00004829         Code  Gb  I32DivModFast.o [5]
+__aeabi_idiv0           0x000048f9         Code  Gb  IntDivZer.o [5]
+__aeabi_idivmod         0x00004829         Code  Gb  I32DivModFast.o [5]
+__aeabi_ui2d            0x00004de1         Code  Gb  IxxToDbl.o [4]
+__aeabi_ui2f            0x00005309         Code  Gb  IxxToFlt.o [4]
+__aeabi_uidiv           0x0000482f         Code  Gb  I32DivModFast.o [5]
+__aeabi_uidivmod        0x0000482f         Code  Gb  I32DivModFast.o [5]
+__cmain                 0x00007685         Code  Gb  cmain.o [5]
+__code_start__ {Abs}    0x000040c0         Data  Gb  command line/config [2]
+__exit                  0x000076b9         Code  Gb  XXexit.o [5]
+__iar_data_init3        0x0000764d   0x28  Code  Gb  data_init.o [5]
+__iar_program_start     0x000076e1         Code  Gb  cstartup_M.o [5]
+__iar_systems$$module {Abs}
+                        0x00000001         Data  Gb  command line/config [2]
+__iar_zero_init3        0x000075d9   0x40  Code  Gb  zero_init3.o [5]
+__low_level_init        0x0000769f    0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x00004000   0xc0  Data  Gb  vectors.o [1]
+_call_main              0x00007691         Code  Gb  cmain.o [5]
+_exit                   0x000076ad         Code  Gb  cexit.o [5]
+_main                   0x0000769b         Code  Gb  cmain.o [5]
+accle_z                 0x1ffff17a    0x2  Data  Gb  KEA_PIT.o [1]
+accle_z_h               0x1ffff17f    0x1  Data  Gb  KEA_PIT.o [1]
+accle_z_l               0x1ffff180    0x1  Data  Gb  KEA_PIT.o [1]
+acmp0_irqhandler_default
+                        0x0000726d    0x8  Code  Lc  vectors.o [1]
+acmp1_irqhandler_default
+                        0x00007295    0x8  Code  Lc  vectors.o [1]
+adc0_irqhandler_default
+                        0x00007265    0x8  Code  Lc  vectors.o [1]
+adc_init                0x00005d69   0x36  Code  Gb  KEA_adc.o [1]
+adc_once                0x00005d9f   0x34  Code  Gb  KEA_adc.o [1]
+adc_start               0x00005dd3   0x1c  Code  Lc  KEA_adc.o [1]
+assert_failed           0x000048dd    0x4  Code  Gb  MKEA128_conf.o [1]
+bit16_data16            0x1ffff120    0x8  Data  Gb  KEA_PIT.o [1]
+bit8_data               0x1ffff118    0x8  Data  Gb  KEA_PIT.o [1]
+bus_clk_khz             0x1ffff168    0x4  Data  Gb  system_SKEAZ1284.o [1]
+circle                  0x1ffff17c    0x1  Data  Gb  KEA_PIT.o [1]
+common_startup          0x0000735d   0x6a  Code  Gb  system_SKEAZ1284.o [1]
+core_clk_khz            0x1ffff160    0x4  Data  Gb  system_SKEAZ1284.o [1]
+core_clk_mhz            0x1ffff164    0x4  Data  Gb  system_SKEAZ1284.o [1]
+countL                  0x1ffff140    0x4  Data  Gb  KEA_PIT.o [1]
+countR                  0x1ffff144    0x4  Data  Gb  KEA_PIT.o [1]
+data                    0x1ffff0b4   0x14  Data  Gb  guiyihua.o [1]
+data_to_send            0x1ffff148   0x18  Data  Gb  Serial_oscilloscope.o [1]
+default_isr             0x000048e1   0x18  Code  Gb  MKEA128_conf.o [1]
+dir_pwm                 0x1ffff134    0x4  Data  Gb  KEA_PIT.o [1]
+directions              0x00006251  0x168  Code  Gb  direction.o [1]
+dt                      0x1ffff00c    0x4  Data  Gb  Karman.o [1]
+exit                    0x000076a3    0x8  Code  Gb  exit.o [3]
+fGyroscopeAngleIntegral
+                        0x1ffff038    0x8  Data  Gb  Calculate.o [1]
+ftm0_irqhandler_default
+                        0x00007275    0x8  Code  Lc  vectors.o [1]
+ftm1_irqhandler_default
+                        0x0000727d    0x8  Code  Lc  vectors.o [1]
+ftm2_irqhandler_default
+                        0x00007285    0x8  Code  Lc  vectors.o [1]
+ftm_clean               0x000059c3    0x6  Code  Gb  KEA_ftm.o [1]
+ftm_enable_clk          0x000056af   0x26  Code  Lc  KEA_ftm.o [1]
+ftm_mod                 0x1ffff100    0xc  Data  Lc  KEA_ftm.o [1]
+ftm_port_mux            0x0000559d  0x112  Code  Gb  KEA_ftm.o [1]
+ftm_pulse_get           0x000059bd    0x6  Code  Gb  KEA_ftm.o [1]
+ftm_pulse_init          0x0000598d   0x30  Code  Gb  KEA_ftm.o [1]
+ftm_pulse_mux           0x00005901   0x82  Code  Gb  KEA_ftm.o [1]
+ftm_pwm_duty            0x00005819   0xcc  Code  Gb  KEA_ftm.o [1]
+ftm_pwm_init            0x000056f1  0x11a  Code  Gb  KEA_ftm.o [1]
+ftmre_irqhandler_default
+                        0x00007215    0x8  Code  Lc  vectors.o [1]
+g_fAngleControlOut      0x1ffff058    0x4  Data  Gb  Calculate.o [1]
+g_fCarAngle             0x1ffff040    0x8  Data  Gb  Calculate.o [1]
+g_fGravityAngle         0x1ffff050    0x8  Data  Gb  Calculate.o [1]
+g_fGyroscopeAngleSpeed  0x1ffff048    0x8  Data  Gb  Calculate.o [1]
+getvalue                0x000059c9   0xb6  Code  Gb  KEA_PIT.o [1]
+gpio_get                0x00004749   0x40  Code  Gb  KEA_gpio.o [1]
+gpio_init               0x000045e1   0xb0  Code  Gb  KEA_gpio.o [1]
+gpio_set                0x00004691   0x7c  Code  Gb  KEA_gpio.o [1]
+gpio_turn               0x0000470d   0x3c  Code  Gb  KEA_gpio.o [1]
+guiyi                   0x0000600b  0x1dc  Code  Gb  guiyihua.o [1]
+guiyihuaInit            0x00005ecd  0x13e  Code  Gb  guiyihua.o [1]
+guiyivalue              0x1ffff128    0xc  Data  Gb  KEA_PIT.o [1]
+gyro_z                  0x1ffff178    0x2  Data  Gb  KEA_PIT.o [1]
+gyro_z_h                0x1ffff17d    0x1  Data  Gb  KEA_PIT.o [1]
+gyro_z_l                0x1ffff17e    0x1  Data  Gb  KEA_PIT.o [1]
+hardfault_handler_default
+                        0x00007185    0x8  Code  Lc  vectors.o [1]
+i2c0_irqhandler_default
+                        0x0000722d    0x8  Code  Lc  vectors.o [1]
+i2c1_irqhandler_default
+                        0x00007235    0x8  Code  Lc  vectors.o [1]
+ics_init                0x000072f1   0x5a  Code  Gb  system_SKEAZ1284.o [1]
+ics_irqhandler_default  0x000072b5    0x8  Code  Lc  vectors.o [1]
+irq_irqhandler_default  0x00007225    0x8  Code  Lc  vectors.o [1]
+kbi0_irqhandler_default
+                        0x0000729d    0x8  Code  Lc  vectors.o [1]
+kbi1_irqhandler_default
+                        0x000072a5    0x8  Code  Lc  vectors.o [1]
+lastspeeddifferenceL    0x1ffff084    0x4  Data  Gb  Calculate.o [1]
+led                     0x00004937   0x3c  Code  Gb  VCAN_LED.o [1]
+led_init                0x000048fd   0x3a  Code  Gb  VCAN_LED.o [1]
+led_turn                0x00004973   0x32  Code  Gb  VCAN_LED.o [1]
+loadflash               0x000061ed   0x46  Code  Gb  guiyihua.o [1]
+main                    0x00007025  0x128  Code  Gb  main.o [1]
+maxmin                  0x1ffff094   0x14  Data  Gb  guiyihua.o [1]
+mscan_rx_irqhandler_default
+                        0x000072cd    0x8  Code  Lc  vectors.o [1]
+mscan_tx_err_wakeup_irqhandler_default
+                        0x000072d5    0x8  Code  Lc  vectors.o [1]
+new_speedL              0x1ffff07c    0x4  Data  Gb  Calculate.o [1]
+new_speedR              0x1ffff080    0x4  Data  Gb  Calculate.o [1]
+nmi_handler_default     0x0000717d    0x8  Code  Lc  vectors.o [1]
+pendsv_handler_default  0x000071dd    0x8  Code  Lc  vectors.o [1]
+pit_ch0_irq             0x00005a7f  0x12c  Code  Gb  KEA_PIT.o [1]
+pit_ch1_irq             0x00005bab   0xd0  Code  Gb  KEA_PIT.o [1]
+pit_init                0x00005c85   0x78  Code  Gb  KEA_PIT.o [1]
+pmc_irqhandler_default  0x0000721d    0x8  Code  Lc  vectors.o [1]
+port_pull               0x00006d7d   0x6a  Code  Gb  KEA_port.o [1]
+pp                      0x1ffff138    0x8  Data  Gb  KEA_PIT.o [1]
+pwt_irqhandler_default  0x000072c5    0x8  Code  Lc  vectors.o [1]
+rtc_irqhandler_default  0x0000728d    0x8  Code  Lc  vectors.o [1]
+soft_delay_ms           0x000047b5   0x1c  Code  Gb  misc.o [1]
+soft_delay_us           0x00004791   0x24  Code  Gb  misc.o [1]
+spi0_irqhandler_default
+                        0x0000723d    0x8  Code  Lc  vectors.o [1]
+spi1_irqhandler_default
+                        0x00007245    0x8  Code  Lc  vectors.o [1]
+start                   0x000072dd   0x14  Code  Gb  system_SKEAZ1284.o [1]
+svc_handler_default     0x000071c5    0x8  Code  Lc  vectors.o [1]
+sysinit                 0x0000734b   0x12  Code  Gb  system_SKEAZ1284.o [1]
+systick_handler_default
+                        0x000071e5    0x8  Code  Lc  vectors.o [1]
+t_0                     0x1ffff0e8    0x4  Data  Gb  Karman.o [1]
+t_1                     0x1ffff0ec    0x4  Data  Gb  Karman.o [1]
+timer_clk_khz           0x1ffff16c    0x4  Data  Gb  system_SKEAZ1284.o [1]
+uart0_irqhandler_default
+                        0x0000724d    0x8  Code  Lc  vectors.o [1]
+uart1_irqhandler_default
+                        0x00007255    0x8  Code  Lc  vectors.o [1]
+uart2_irqhandler_default
+                        0x0000725d    0x8  Code  Lc  vectors.o [1]
+uart_init               0x00006981   0xe0  Code  Gb  KEA_uart.o [1]
+uart_putchar            0x00006a61    0xc  Code  Gb  KEA_uart.o [1]
+vector_004_default      0x0000718d    0x8  Code  Lc  vectors.o [1]
+vector_005_default      0x00007195    0x8  Code  Lc  vectors.o [1]
+vector_006_default      0x0000719d    0x8  Code  Lc  vectors.o [1]
+vector_007_default      0x000071a5    0x8  Code  Lc  vectors.o [1]
+vector_008_default      0x000071ad    0x8  Code  Lc  vectors.o [1]
+vector_009_default      0x000071b5    0x8  Code  Lc  vectors.o [1]
+vector_010_default      0x000071bd    0x8  Code  Lc  vectors.o [1]
+vector_012_default      0x000071cd    0x8  Code  Lc  vectors.o [1]
+vector_013_default      0x000071d5    0x8  Code  Lc  vectors.o [1]
+vector_016_default      0x000071ed    0x8  Code  Lc  vectors.o [1]
+vector_017_default      0x000071f5    0x8  Code  Lc  vectors.o [1]
+vector_018_default      0x000071fd    0x8  Code  Lc  vectors.o [1]
+vector_019_default      0x00007205    0x8  Code  Lc  vectors.o [1]
+vector_020_default      0x0000720d    0x8  Code  Lc  vectors.o [1]
+vector_042_default      0x000072ad    0x8  Code  Lc  vectors.o [1]
+wdog_disable            0x00007419   0x1a  Code  Gb  KEA_wdog.o [1]
+wdog_irqhandler_default
+                        0x000072bd    0x8  Code  Lc  vectors.o [1]
+wdog_unlock             0x00007433   0x1c  Code  Lc  KEA_wdog.o [1]
+write_vtor              0x000047d1   0x20  Code  Gb  misc.o [1]
+
+
+[1] = C:\Users\ZDH\Desktop\2018.6.20.21.23\2018.6.20.21.23\Prj\IAR\KEA128_Debug\Obj
+[2] = command line
+[3] = dl6M_tlf.a
+[4] = m6M_tl.a
+[5] = rt6M_tl.a
+
+  12 856 bytes of readonly  code memory
+   1 224 bytes of readonly  data memory
+     381 bytes of readwrite data memory
+
+Errors: none
+Warnings: 1
