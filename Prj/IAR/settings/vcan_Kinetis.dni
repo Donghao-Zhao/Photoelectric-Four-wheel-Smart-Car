@@ -1,0 +1,107 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[PlDriver]
+MemConfigValue=D:\iar\arm\CONFIG\debugger\NXP\KEAZ128xxx4.ddf
+FirstRun=0
+[Jet]
+DisableInterrupts=0
+LeaveRunning=0
+MultiCoreRunAll=0
+JetConnSerialNo=00255
+JetConnFoundProbes=
+OnlineReset=Software
+PrevWtdReset=System
+[ArmDriver]
+EnableCache=1
+[DebugChecksum]
+Checksum=-1004760542
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[CallStack]
+ShowArgs=1
+[Disassembly]
+MixedMode=1
+[SWOManager]
+SamplingDivider=8192
+OverrideClock=0
+CpuClock=1
+SwoClock=376147504
+DataLogMode=0
+ItmPortsEnabled=63
+ItmTermIOPorts=1
+ItmLogPorts=0
+ItmLogFile=$PROJ_DIR$\ITM.log
+PowerForcePC=1
+PowerConnectPC=1
+[RegisterFilter]
+FilePath=_ ""
+UseFilter=_ 0
+[Trace1]
+Enabled=0
+ShowSource=1
+[ETMTraceWindow]
+PortWidth=4
+PortMode=0
+CaptureDataValues=0
+CaptureDataAddresses=0
+CaptureDataRange=0
+DataFirst=0
+DataLast=-1
+StopWhen=0
+StallCPU=0
+NoPCCapture=0
+[Trace2]
+Enabled=0
+ShowSource=0
+[SWOTraceWindow]
+ForcedPcSampling=0
+ForcedInterruptLogs=0
+ForcedItmLogs=0
+EventCPI=0
+EventEXC=0
+EventFOLD=0
+EventLSU=0
+EventSLEEP=0
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Bp0=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\..\2018.5.2.20.260}.90.4" 0 0 1 "" 0 "" 0
+Bp1=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\App\guiyihua.c}.248.1" 0 0 1 "" 0 "" 0
+Bp2=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\App\guiyihua.c}.236.4" 0 0 1 "" 0 "" 0
+Bp3=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\App\guiyihua.c}.229.4" 0 0 1 "" 0 "" 0
+Bp4=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\Chip\src\KEA_PIT.c}.344.1" 0 0 1 "" 0 "" 0
+Bp5=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\App\guiyihua.c}.106.6" 0 0 1 "" 0 "" 0
+Count=6
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Aliases]
+A0=_ "C:\Users\Administrator\Desktop\0415\App\guiyihua.c" ""
+A1=_ "C:\Users\Administrator\Desktop\0415\App\main.c" ""
+A2=_ "C:\Users\Administrator\Desktop\0415\Chip\inc\vectors.h" ""
+A3=_ "C:\Users\Administrator\Desktop\0415\Chip\src\KEA_PIT.c" ""
+A4=_ "C:\Users\Administrator\Desktop\0415\Chip\src\KEA_adc.c" ""
+A5=_ "C:\Users\Administrator\Desktop\0415\Lib\CMSIS\Inc\core_cm0plus.h" ""
+A6=_ "C:\Users\Administrator\Desktop\2018.4.24.17.47\Chip\inc\vectors.h" ""
+A7=_ "C:\Users\Administrator\Desktop\2018.4.24.17.47\Chip\src\KEA_adc.c" "C:\Users\Administrator\Desktop\2018.5.2.20.260\Chip\src\KEA_adc.c"
+A8=_ "C:\Users\Administrator\Desktop\2018.5.23发现一个bug，已解决\Chip\inc\vectors.h" "C:\Users\Administrator\Desktop\2018程序备份\2018.525未知bug，回滚到上个版本，小液晶炸了\Chip\inc\vectors.h"
+A9=_ "C:\Users\Administrator\Desktop\2018程序备份\2018.5.26将补偿量显示到小液晶电机出现问题，现在已注释掉，直立速度补偿还没加上\App\main.c" "C:\Users\Administrator\Desktop\2018.5.26.22.37四个电感的，左右速度不一样\App\main.c"
+A10=_ "C:\Users\Administrator\Desktop\28.PIT_计时\App\main.c" ""
+A11=_ "C:\Users\Administrator\Desktop\28.PIT_计时\Lib\CMSIS\Inc\core_cm0plus.h" ""
+A12=_ "C:\Users\Administrator\Desktop\新建文件夹 (6)\2018.6.18\App\main.c" "C:\Users\Administrator\Desktop\2018.6.20.21.23\App\main.c"
+A13=_ "C:\Users\Administrator\Desktop\新建文件夹 (6)\新程序\App\main.c" "C:\Users\Administrator\Desktop\新建文件夹 (6)\新程序11\App\main.c"
+Count=14
+SuppressDialog=0
