@@ -11,6 +11,7 @@ Design and Making of Photoelectric Four-wheel Smart Car, Electromagnetic Energy-
 Project Description:
 
 Duration: May 2016 – Aug 2018
+
 Purpose:
 
 To design and make, based on standardized car models and unified MCUs, several electric-powered model cars that can independently identify race course and control themselves to participate in nationwide racing.
